@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>similar_file_organizer</RootNamespace>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="AODLCore" Version="1.3.0" /> -->
+    
+    <PackageReference Include="Fastenshtein" Version="1.0.0.9" />
+    <PackageReference Include="NPOI" Version="2.3.0" />
+    <PackageReference Include="NPOI.HWPF" Version="2.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AODL\AODLCore.csproj" />
+  </ItemGroup>
+
+</Project>
